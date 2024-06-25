@@ -1,0 +1,50 @@
+body {
+    background-color: #262626;
+}
+.banner {
+    background-image: url('C:\Users\HomeUser\Desktop\AluraFlix\aluraflix\public\img\player.png');
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    height: 60vh;
+}
+
+.banner .card_banner {
+    background-color: #001233a1;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    /* display: none; */
+}
+
+.banner .card_banner:nth-child(1) {
+    text-align: left;
+    align-items: left;
+}
+
+.banner .card_banner section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255, 0, 0, 0)
+}
+
+.banner .card_banner section h1{
+    background-color: #6bd1ff;
+    width: 136px;
+    padding: 10px 2px;
+    border-radius: 15px;
+}
+
+.banner .card_banner section p{
+    max-width: 450px;
+}
+
+.banner .card_banner img {
+    max-width: 500px;
+    cursor: pointer;
+}
